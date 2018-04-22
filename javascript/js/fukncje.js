@@ -5,7 +5,7 @@ function aktualnyRok() {
 }
 
 var aktualnyMiesiac = function() {
-    console.log("Kwiecien");
+    console.log("Kwiecień");
 }
 
 console.log(aktualnyMiesiac);
@@ -18,3 +18,18 @@ aktualnyMiesiac();
 
 aktualnyRok();
 aktualnyRok();
+
+
+function dodajLiczby(pierwszaLiczba, drugaLiczba) {
+    var wynik = pierwszaLiczba + drugaLiczba;
+
+
+//console.log(wynik);
+    return wynik;
+}
+
+var wynikZFunkcji = dodajLiczby (4, 7);
+console.log(wynikZFunkcji);
+
+
+
