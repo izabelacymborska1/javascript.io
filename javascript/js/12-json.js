@@ -86,3 +86,21 @@ osoby.forEach(function(osoba, index) {
 //jsonOsoby.osoby[0].zainteresowania.forEach( function(zainteresowanie, index) {
 //    console.log("index: " + index + " zainteresowanie: " + zainteresowanie.nazwa)
 //});
+
+
+
+
+||
+
+
+
+
+
+
+
+
+
+
+
+
+
