@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Kalkulator </title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="kontener">
+        <h1>Kalkulator</h1>
+        <h2> Wpisz z klawiatury lub wprowadż wyrażenie za pomocą przycisków</h2><br>
+        <form action="" onsubmit="getExp(event)">
+        <!-- Przyciski kalkulatora -->
+           
+            <input class="buttonNumberLook" type="button" value="1" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="2" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="3" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="+" onclick="getValueOnPress(value)"><br><br>
+            
+            <input class="buttonNumberLook" type="button" value="4" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="5" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="6" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="-"  onclick="getValueOnPress(value)"><br><br>
+            
+            <input class="buttonNumberLook" type="button" value="7" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="8" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="9" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="*" onclick="getValueOnPress(value)"><br><br>
+            
+            <input class="buttonNumberLook" type="button" value="." onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="button" value="0" onclick="getValueOnPress(value)">
+            <input class="buttonNumberLook" type="submit" value="=" >
+            <input class="buttonNumberLook" type="button" value="/" onclick="getValueOnPress(value)"> <br><br> 
+            
+        <!-- Przyciski kalkulatora -->
+
+            <label for="expression"></label>
+            <input class="buttonNumberLook buttonLook fieldLook"  type="text" id="expression"><br><br>    
+            <input class="buttonNumberLook buttonLook" type="button" value="Wyczyść" onclick="clearField(event)">
+
+        </form>
+        <!--<h3>Historia działań : </h3>-->
+    </div>
+    <script src='index.js'></script>
+</body>
+
+</html>

@@ -36,61 +36,59 @@ var jsonOsoby = {
         }
     ]
 }
-
-console.log(jsonOsoby.osoby[0].zainteresowania);
-
-
+//
+//console.log(jsonOsoby.osoby[0].zainteresowania);
+//
+////
 //for (var i=0; i<3; ++i) {
 //    console.log("Element z Indeksem" + i + "ma wartość" + tablica[i]);
 //}
-    
+//    
 
-
-var osoby = jsonOsoby.osoby;
-osoby.forEach(function(osoba, index) {
-    console.log("Osoba: " + osoba.imie);
-    
-    var zainteresowania = osoba.zainteresowania;
-    zainteresowania.forEach(function(zainteresowanie, i) {
-        console.log("Zainteresowanie: " + zainteresowanie.nazwa);
-    })
-    
-    
-});
-    
-
-
-
-
+//
+//var osoby = jsonOsoby.osoby;
+//osoby.forEach(function(osoba, index) {
+//    console.log("Osoba: " + osoba.imie);
+//    
+//    var zainteresowania = osoba.zainteresowania;
+//    zainteresowania.forEach(function(zainteresowanie, i) {
+//        console.log("Zainteresowanie: " + zainteresowanie.nazwa);
+//    })
+//    
+//    
+//});
+//    
+//
+//
+//
+//
 //jsonOsoby.osoby.forEach( function( element, index){
 //    console.log(element);
 //    
 //})
-
-
-
-
-
+//
+//
+//
+//
+//
 //jsonOsoby.osoby[2].zainteresowania.forEach( function (element, index) {
 //    console.log(element.nazwa);
 //});
-
+//
 //console.log(jsonOsoby.osoby[2].zainteresowania);
+//
+//
+//
+
+
+
+jsonOsoby.osoby[0].zainteresowania.forEach( function(zainteresowanie, index) {
+    console.log("index: " + index + " zainteresowanie: " + zainteresowanie.nazwa)
+});
 
 
 
 
-
-
-
-//jsonOsoby.osoby[0].zainteresowania.forEach( function(zainteresowanie, index) {
-//    console.log("index: " + index + " zainteresowanie: " + zainteresowanie.nazwa)
-//});
-
-
-
-
-||
 
 
 
