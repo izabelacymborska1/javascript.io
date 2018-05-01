@@ -15,12 +15,12 @@ $(function () {
         });
     });
 
-    $('.prev-slide'.click(function() {
+    $('.prev-slide').click(function() {
         slide(slideIndex - 1);
-    )}
+    });
 
 
-    $('.next-slide'.click(function() {
+    $('.next-slide').click(function() {
         slide(slideIndex + 1);
     });
 
@@ -33,7 +33,7 @@ $(function () {
         slideCaption.hide();
 
         slideShow.animate({
-            'margin-left';marginLeft + '%'
+            'margin-left':marginLeft + '%'
         }, 800, function () {
 
             slideIndex = newSlideIndex;
