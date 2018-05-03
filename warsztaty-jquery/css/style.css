@@ -1,0 +1,23 @@
+button {
+    left: 110px;
+    font-size: 20px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation-iteration-count: 1; 
+}
+h2 {
+    position:absolute;
+    color: black;
+    top: 40%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px; 
+    left: 11px;
+    
+}
+   
