@@ -50,3 +50,5 @@ function calculate(exp) {
 function clearField(event){
     document.getElementById('expression').value = " ";
 }
+
+
