@@ -12,7 +12,6 @@ $('button').click(function () {
             backgroundColor: "blue",
             transition: "5s"
         });
-
         });
 
     });

@@ -15,9 +15,19 @@ h2 {
     color: black;
     top: 40%;
     text-align: center;
-    display: inline-block;
     font-size: 10px; 
-    left: 11px;
-    
+    animation-name: pojawienie;
+    visibility: hidden;
+    animation-duration: 10s;
+    animation-delay:8s;
 }
-   
+
+@keyframes pojawienie {
+    0% {
+        visibility: hidden;  
+        
+    }
+    60%{
+        visibility: visible;
+    }
+}
