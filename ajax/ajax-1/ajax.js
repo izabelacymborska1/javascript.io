@@ -1,9 +1,20 @@
 function showData(arrData) {
-    arrData.forEach(function( elem, index) {
-        console.log(elem.title);
+   var html = "";
         
-        console.log("===================")
+    arrData.forEach(function( elem, index) {
+        
+       html += "<p>Tytuł: <strong>" + elem.title + " </strong></p>";
+        
+        
+        
+//        console.log(elem.title);
+//        
+//        console.log("===================")
     });
+    
+    
+//    wyswietla w body co petla zrobiła czyli utwirzuył 100 paragrafów z trescią 
+    document.body.innerHTML = html;
 }
 
 
