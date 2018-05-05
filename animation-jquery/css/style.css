@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#anim {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: mediumorchid;
+}
+
+/*nadpisujemy klasę diva .new_background, aby zmienic kolor diva na końcu*/
+#anim.new_background {
+    background-color: blue;
+    
+}
