@@ -23,26 +23,22 @@ body {
 
 #main-nav {
     width: 100%;
-   
 }
 
 ul, li span {
     color: white;
     font-size: 15px 700; 
     font-weight: 700;
-    
 }
+
 h3 {
     font-style: italic;
 }
 
 .header-content {
     margin: 10px;
-    position: absolute;
-    width: auto;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
+
     text-align: center;
     color: white;
 }
@@ -53,43 +49,138 @@ h3 {
 }
 
 .content_services {
-    height: 700px;    
-    
+    height: 700px;     
 }
 
 .services_text {
     height: 30%;
-    background-color: aquamarine;
     position: relative;
     margin-top: 10%;
-
     text-align: center;
+}
+.services_text p {
+font-style: italic;
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.services_text h1 {
+text-transform: uppercase;
+}
+
+.content_services .icons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.content_services .icons .fa {
+    color:white;
+    width:80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-bottom: 15px;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    transition: all 1s;
+    cursor: pointer;
+}
+    
+.content_services .icons .fa:hover {
+    background-color: white;
+    color: #0ed8d6;
+    transform: rotate(360deg);
+}
+
+
+/*PORTFOLIO*/
+
+#portfolio-image-background-1 {
+    background-image: url(img/portfolio/box_of_cookies.jpg)
+}
+
+
+#portfolio-image-background-2 {
+    background-image: url(img/portfolio/chaotic_paint.jpg)
+}
+
+#portfolio-image-background-3 {
+    background-image: url(img/portfolio/chestnut_on_bracket.jpg)
+}
+
+#portfolio-image-background-4 {
+    background-image: url(img/portfolio/child_with_blue_paint.jpg)
+}
+
+#portfolio-image-background-5 {
+    background-image: url(img/portfolio/house_with_blue_doors.jpg)
+}
+
+
+#portfolio-image-background-6 {
+    background-image: url(img/portfolio/typing_on_laptop.jpg)
+}
+
+
+
+
+#portfolio {
+    background-color: #f7f7f7;
+
+}
+
+#portfolio .portfolio-item {
+    background-color: #fff;
     
 }
-.sevices-text p {
-    font-style: italic;
+
+
+#portfolio .portfolio-item .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+transition: all 1s;
+    
 }
 
-h1 {
-text-transform: capitalize;
+#portfolio .portfolio-image {
+    overflow: hidden;
 }
 
 
 
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 216, 214, 0.85);
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #fff;
+    cursor: pointer;
+    font-size: 2em;
+    opacity: 0;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover {
+ transform: scale(1.2);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask:hover {
+    opacity: 1;
+    
+}
 
 
