@@ -1,0 +1,20 @@
+body {
+
+    background-color: red;
+}
+.custom-fluid {
+    height:100px;
+    background-color: yellow;
+    
+}
+.custom-container {
+    background-color: green;
+    height: 400px;
+}
+
+.custom-column {
+    height: 100px;
+    
+}
+
+a
