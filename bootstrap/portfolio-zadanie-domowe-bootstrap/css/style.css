@@ -31,7 +31,6 @@ nav {
 nav ul {
     float: right;
     margin: 0;
-    background-color: white;
     width: 100%;
 
 }
@@ -40,7 +39,6 @@ nav li {
     display: inline-block;
     padding: 20px 40px;
     float: right;
-
 }
 
 nav ul li a {
@@ -51,8 +49,26 @@ nav ul li a {
 nav ul li a:hover {
     color: #291f1a;
 }
+.nav-link span {
+    color: darkgreen;
+    font-weight: 600;
+    transition: 1s all;
+}
+.nav-link span:hover {
+    color: brown;
 
+}
+.navbar-brand span{
+    font-weight: 500;
+    color: Pink;
+    font-size: 1.5em;
+}
 
+.about-head {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
 header {
     background-image: url(../img/header-background.jpg);
     height: 500px;
@@ -60,7 +76,10 @@ header {
     background-size: cover;
     color: #fff;
 }
-
+.about-content {
+    max-width: 100%;
+    max-height: 350px;
+}
 .header-content {
 
     text-align: center;
@@ -124,7 +143,6 @@ h3 {
 #skills figure {
     display: inline-block;
     text-align: center;
-
 }
 
 #skills article p {
@@ -136,6 +154,11 @@ h3 {
 #skills-icons {
     margin: 0 auto;
     width: 100%;
+    text-align: center;
+}
+
+.text-center {
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -209,7 +232,10 @@ h3 {
     color: #fff;
 }
 
-
+.contact-head {
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 #contact {
@@ -335,7 +361,10 @@ form button[type="submit"] {
     text-align: center;
     margin: 0;
 }
-
+.btn {
+    position: relative;
+    right: 0;
+}
 @media (max-width:1258px) {
     
     .skills-icons figure { 

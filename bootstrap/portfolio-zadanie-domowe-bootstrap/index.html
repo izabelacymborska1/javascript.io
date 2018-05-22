@@ -10,6 +10,12 @@
      <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+<!--bootstrap css-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<!--  GOOGLE ICONS-->
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
 
@@ -26,40 +32,28 @@
 </head>
 
 <body>
-<!--
-    <nav id="menu">
-        <label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" name="drop" id="drop">
-        <ul>
-            <li><a href="#">o mnie</a></li>
-            <li><a href="#">umiejętności</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">kontakt</a></li>
-        </ul>
-    </nav>
--->
-    
+
 
       <!-- MAIN NAV - START  BOOTSTRAP -->
 
     <nav id="main-nav" class="navbar fixed-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#"><span>Bootsrap Projekt</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#services"><span>O mnie</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#portfolio"><span>Umiejętności</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" href="#team"><span>Portfolio</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact"><span>Kontact</span></a>
                 </li>
             </ul>
         </div>
@@ -67,52 +61,76 @@
 
     <!-- MAIN NAV - END -->
    
+   <!-- HEADER - START -->
    
-   
-   
-   
-    
     <header id="main-header">
         <div class="header-content">
             <h1>Izabela<span> Cymborska</span></h1>
             <h2>Front-End Developer</h2>
         </div>
     </header>
+    
+    <!-- HEADER - END -->
+    
+  <!--ABOUT START-->  
+   
+<div class="container-fluid">
     <section id="about">
 
-        <h3>O <span>mnie</span></h3>
-        <article>
+        <div class="row">
+            <div class="about-head">
+                <h3>O <span>mnie</span></h3>
+            </div>
+        </div>
+        <div class="col-sm-6 about-content">
+            <figure><img src="img/jan-nowak.jpg" alt="jan nowak"></figure>
+        </div>
+        <article class="col-sm-6 text-justify">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ducimus, perferendis eligendi officia explicabo ipsam voluptate quisquam praesentium fugiat facere, iste voluptates excepturi fuga a soluta? Recusandae omnis voluptate vero possimus culpa incidunt, eius. Sint maxime maiores totam dolorem. Animi repellendus sed, suscipit debitis voluptatum ab veritatis eligendi natus ipsam itaque dolorum quod, cupiditate quae sit nihil id! Commodi eveniet in, voluptates, minima architecto qui quasi voluptate consequatur rerum ipsum excepturi dignissimos incidunt dolores atque, dolore corporis explicabo dicta eligendi optio laboriosam. Eos tempore, dicta quo id facere enim obcaecati nemo cumque sapiente aut, dolorem nobis unde iste quia rem.</p>
         </article>
-        <figure><img src="img/jan-nowak.jpg" alt="jan nowak"></figure>
-
     </section>
+   </div>
+   
+<!--ABOUT END-->
+  
+  <!--MY SKILL START-->
+   <div class="container-fluid skills">
 
     <section id="skills">
-        <h3>Moje <span>umiejętności</span></h3>
+       <div class="row">
+        <h3 class="text-center">Moje <span>umiejętności</span></h3>
         <article>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsam veritatis explicabo adipisci dolor expedita, debitis consequuntur magnam maiores, sequi quis quae libero cum tempore quasi. Quaerat voluptatem quos quis odit, voluptas sapiente, nam, similique asperiores saepe nostrum, dolor a!</p>
         </article>
+        
+        </div>
+        <div class="row">
         <div id="skills-icons">
-            <figure><img src="icons/html5.png" alt="html">
+            <figure class="col-md-2"><img src="icons/html5.png" alt="html">
                 <figcaption>HTML5</figcaption>
             </figure>
-            <figure><img src="icons/css3.png" alt="css">
+            <figure class="col-md-2"><img src="icons/css3.png" alt="css">
                 <figcaption>CSS3</figcaption>
             </figure>
-            <figure><img src="icons/js.png" alt="js">
+            <figure class="col-md-2"><img src="icons/js.png" alt="js">
                 <figcaption>JavaScript</figcaption>
             </figure>
-            <figure><img src="icons/jquery.png" alt="jq">
+            <figure class="col-md-2"><img src="icons/jquery.png" alt="jq">
                 <figcaption>JQuery</figcaption>
             </figure>
         </div>
-
+</div>
     </section>
-
-    <section id="portfolio">
-        <h3>Moje <span>portfolio</span></h3>
-        <div class="portfolio-items">
+</div>
+   <!--MY SKILL END-->
+   
+<!--   MY PORTFOLIO START-->
+   
+    <section id="portfolio" class="container-fluid">
+       <div class="row">
+        <h3 class="text-center">Moje <span>portfolio</span></h3>
+        </div>
+        <div class="row portfolio-items">
             <div class="portfolio-item" id="portfolio-item-1">
                 <div class="item-mask">
                     <div class="item-content">
@@ -121,7 +139,7 @@
                             <p>Lorem ipsum dolor</p>
                             <h5>Lorem ipsum</h5>
                             <p>Lorem ipsum</p>
-                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fa fa-link"></i></a>
                         </div>
 
                     </div>
@@ -135,7 +153,7 @@
                             <p>Lorem ipsum dolor</p>
                             <h5>Lorem ipsum</h5>
                             <p>Lorem ipsum</p>
-                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +167,7 @@
                             <p>Lorem ipsum dolor</p>
                             <h5>Lorem ipsum</h5>
                             <p>Lorem ipsum</p>
-                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -157,9 +175,15 @@
         </div>
 
     </section>
-    <section id="contact">
+    
+<!--    MY PORTFOLIO END-->
+    
+    <!--    MY CONTACT START-->
+    
+    <section id="contact" class="container-fluid">
+<div class="row">
         <div class="contact-data">
-            <h2>Izabela <span>Cymborska</span></h2><br><br><br>
+            <h2 class="text-center contact-head">Izabela <span>Cymborska</span></h2><br><br><br>
             <address>
                 ul.Szkolna 11A<br>
                 05-515 Nowa Iwiczna<br><br>
@@ -168,16 +192,15 @@
                 </address>
             <div class="contact-social-icons">
                 <ul>
-                    <li><a><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a><i class="fab fa-twitter"></i></a></li>
-                    <li><a><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a><i class="fa fa-facebook"></i></a></li>
+                    <li><a><i class="fa fa-google-plus"></i></a></li>
+                    <li><a><i class="fa fa-twitter"></i></a></li>
+                    <li><a><i class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
-        <div class="contact-form">
+        <div class="row contact-form">
             <form>
-
                 <label for="name"></label>
                 <input type="text" name="imie" id="name" placeholder="Imię i Nazwisko">
 
@@ -186,27 +209,24 @@
 
                 <label for="message"></label>
                 <textarea name="message" id="message" placeholder="Wiadomość"></textarea>
-
-                <button type="submit" id="button">Wyślij</button>
-
+                <button type="button" class="btn btn-primary">Wyślij</button>
             </form>
-
-
-
-
         </div>
-
-
-
-
+        </div>
     </section>
+    
+        <!--    MY CONTACT END-->
 
+   <!--    MY FOOTER START-->
+   <div class="container-fluid">
+   <div class="row">
     <footer class="footer">
-        <p>Copyright©Izabela Cymborska</p>
+        <p>Copyright © Izabela Cymborska</p>
     </footer>
-
+    </div>
+</div>
   
-  
+     <!--    MY FOOTER END-->
   
    <!-- jQuery -->
     <script src="js/jquery-3.2.1.min.js"></script>
