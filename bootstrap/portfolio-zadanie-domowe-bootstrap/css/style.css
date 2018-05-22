@@ -361,10 +361,7 @@ form button[type="submit"] {
     text-align: center;
     margin: 0;
 }
-.btn {
-    position: relative;
-    right: 0;
-}
+
 @media (max-width:1258px) {
     
     .skills-icons figure { 
